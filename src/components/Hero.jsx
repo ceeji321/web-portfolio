@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profileImg from "../assets/profile.png";
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
         className="w-32 h-32 rounded-full overflow-hidden border-2 border-amber-400 mb-6"
       >
         <img
-          src="/src/assets/profile.png"
+          src={profileImg}
           alt="CJ F. Cendana"
           className="w-full h-full object-cover"
         />
