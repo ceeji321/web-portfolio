@@ -5,8 +5,11 @@ export default function Footer() {
       <p className="text-slate-400 text-sm mb-4">
         Balingueo, Sta. Barbara, Pangasinan
       </p>
+
       
-        <a href="mailto:cjcendana3@gmail.com"
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cjcendana3@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-sm text-slate-400 hover:text-amber-400"
       >
         &#9993; cjcendana3@gmail.com
